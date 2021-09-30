@@ -1,0 +1,100 @@
+body {
+    background-image: url(/img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #070708;
+    min-height: 99vh;
+    color: #222;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#page-container {
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+#header {
+    padding-top:1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logo-area {
+    display: flex;
+    align-items: center;
+}
+
+#logo-img {
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/logo-negative.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#logo-name {
+    padding-left: 0.5rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#analytics-button {
+    margin-right: 1rem;
+}
+
+#enter-app-button {
+    padding: 0.5rem 1.5rem;
+    border: 3px double transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(52 201 234), rgb(0 217 127));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    cursor: pointer;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.25s;
+    animation: ease-in-out;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#information {
+    position: relative;
+    top: 20vh;
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0px 0px 20px #000;
+}
+
+#information a {
+    color: #9bF;
+}
+
+#information a:hover {
+    color: #acF;
+}
+
+input {
+    font-size: 24px;
+}
+
+button {
+    padding: 0.5rem 1.5rem;
+    border: 3px double transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(52 201 234), rgb(0 217 127));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    cursor: pointer;
+    color: #fff;
+}
